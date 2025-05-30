@@ -29,7 +29,7 @@ const Navbar = () => {
 
                     <div className="hidden lg:flex justify-center space-x-12 items-center">
                         <a href="#" className="py-2 px-3 border rounded-md">Sign in</a>
-                        <a href="#" className="bg-gradient-to-r from-blue-300 to-blue-800 text-black py-2 px-3 rounded-md">New account</a>
+                        <a href="#" className="gradient-background animate-colorwave text-neutral-100 py-2 px-3 rounded-md">New account</a>
                     </div>
                 </div>
                 <div className="lg:hidden md:flex flex-col justify-end">
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <a href="#" className="py-2 px-3 border rounded-md">
                             Sign in
                         </a>
-                        <a href="#" className="bg-gradient-to-r from-blue-300 to-blue-800 text-black py-2 px-3 rounded-md">
+                        <a href="#" className="gradient-background animate-colorwave text-neutral-100 py-2 px-3 rounded-md">
                             New account
                         </a>
                     </div>

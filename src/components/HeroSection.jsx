@@ -6,7 +6,7 @@ const HeroSection = () => {
    <div className="flex flex-col items-center mt-6 lg:mt-20">
    <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         virtualR build tools
-        <span className="bg-gradient-to-r from-blue-300 to-blue-800 text-transparent bg-clip-text">
+        <span className="gradient-text animate-colorwave">
             {" "}for developers
         </span>
    </h1>
@@ -14,7 +14,7 @@ const HeroSection = () => {
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
    </p>
     <div className="flex justify-center my-10">
-        <a href="#" className="bg-gradient-to-r from-blue-300 to-blue-800 py-3 px-4 mx-3 rounded-md">
+        <a href="#" className="gradient-background animate-colorwave text-neutral-100 py-3 px-4 mx-3 rounded-md">
             Get started
         </a>
         <a href="#" className="py-3 px-4 mx-3 rounded-md border">
@@ -28,6 +28,7 @@ const HeroSection = () => {
    </div>
   )
 }
+
 
 export default HeroSection
 

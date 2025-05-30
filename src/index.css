@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+.gradient-text{
+    background: linear-gradient(
+        to right,
+        #88aae4,
+        #88aae4,
+        #4982de,
+        #246ce0,
+        #246ce0,
+        #4982de,
+        #88aae4,
+        #88aae4
+
+    );
+    background-size: 300% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-background{
+    background: linear-gradient(
+        to right,
+        #88aae4,
+        #88aae4,
+        #4982de,
+        #246ce0,
+        #246ce0,
+        #4982de,
+        #88aae4
+
+
+    );
+    background-size: 300% 300%;
+
+}
+
+@layer utilities {
+    @keyframes colorwave {
+        0% {
+            background-position: 300% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    .animate-colorwave{
+        animation: colorwave 6s linear infinite;
+    }
+}

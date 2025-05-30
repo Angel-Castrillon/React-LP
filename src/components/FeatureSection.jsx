@@ -9,7 +9,7 @@ const FeatureSection = () => {
                 </span>
                 <h2 className="text-3xl sm:text-4xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
                     Easily build 
-                    <span className="bg-gradient-to-r from-blue-300 to-blue-800 text-transparent bg-clip-text">
+                    <span className="gradient-text animate-colorwave">
                         {" "}your code
                     </span>                    
                 </h2>
@@ -18,7 +18,7 @@ const FeatureSection = () => {
                 {features.map((feature, index) => (
                     <div key={index} className="w-full sm:1/2 lg:w-1/3">
                         <div className="flex">
-                            <div className="flex mx-6 h-10 p-2 bg-neutral-200 text-blue-800 justify-center items-center rounded-full">
+                            <div className="flex mx-6 h-10 p-2 text-blue-800 justify-center items-center rounded-full">
                                 {feature.icon}
                             </div>
                             <div>

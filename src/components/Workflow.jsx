@@ -6,7 +6,7 @@ export const Workflow = () => {
   return (
     <div className="mt-20">
         <h2 className="text-3xl sm:text-5xl text-center lg:text-6xl mt-6  tracking-wide ">Accelerate your{" "}
-            <span className="bg-gradient-to-r from-blue-300 to-blue-800 text-transparent bg-clip-text"> codign workflow.</span>
+            <span className="gradient-text animate-colorwave"> codign workflow.</span>
         </h2>
         <div className="flex flex-wrap justify-center">
             <div className="p-2 w-full lg:w-1/2">
