@@ -3,10 +3,10 @@ import { Fingerprint, Bot, ShieldHalf, PlugZap, BatteryCharging ,GlobeLock }  fr
 
 
 export const navItems = [
-    { label: "Features", href: "#" },
-    { label: "Workflow", href: "#" },
-    { label: "Pricing", href: "#" },
-    { label: "Testimonials", href: "#" },
+    { label: "Features", href: "#features" },
+    { label: "Workflow", href: "#workflow" },
+    { label: "Pricing", href: "#pricing" },
+    { label: "Testimonials", href: "#testimonials" },
 ];
 
 export const features = [
